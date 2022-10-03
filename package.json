@@ -2,10 +2,10 @@
   "name": "node-examples",
   "version": "1.0.0",
   "description": "simple node examples",
-  "main": "index.js",
+  "main": "express1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "start":"node index"
+    "start": "node index"
   },
   "author": "Chandra Prakash",
   "license": "ISC",
@@ -15,5 +15,8 @@
   },
   "keywords": [
     "Prakash"
-  ]
+  ],
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
