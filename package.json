@@ -2,10 +2,10 @@
   "name": "node-examples",
   "version": "1.0.0",
   "description": "simple node examples",
-  "main": "express1.js",
+  "main": "expressRouter.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node express1"
+    "start": "node expressRouter"
   },
   "author": "Chandra Prakash",
   "license": "ISC",
