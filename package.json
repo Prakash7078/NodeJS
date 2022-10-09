@@ -5,7 +5,7 @@
   "main": "express1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index"
+    "start": "node express1"
   },
   "author": "Chandra Prakash",
   "license": "ISC",
@@ -17,6 +17,8 @@
     "Prakash"
   ],
   "dependencies": {
-    "express": "^4.16.3"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
   }
 }
